@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="dMagnets.View.WebView">
+    <ContentPage.Content>
+        <WebView
+            HorizontalOptions="Fill"
+            VerticalOptions="Fill"
+            Source="http://dmagnets.s3-website-us-west-2.amazonaws.com/" />
+    </ContentPage.Content>
+</ContentPage>
